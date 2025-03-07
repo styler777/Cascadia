@@ -1,0 +1,55 @@
+<project name="Cascadia" basedir="." default="run">
+
+
+    <property name="src.dir" value="src/src/main/java/cascadia"/>
+    <property name="bin.dir" value="bin"/>
+    <property name="lib.dir" value="lib"/>
+    <property name="docs.dir" value="docs/doc"/>
+
+   
+    <target name="compile">
+        <mkdir dir="${bin.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${bin.dir}" includeantruntime="false">
+            <classpath>
+                <pathelement location="${lib.dir}/zen-6.0.jar"/>
+            </classpath>
+        </javac>
+    </target>
+
+ 
+    <target name="jar" depends="compile">
+        <jar destfile="Cascadia.jar" basedir="${bin.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="cascadia.app.Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+   
+    <target name="run" depends="compile">
+        <java classname="cascadia.app.Main" fork="true">
+            <classpath>
+               
+                <pathelement location="${bin.dir}"/>
+              
+                <pathelement location="${lib.dir}/zen-6.0.jar"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="javadoc" depends="compile">
+    <mkdir dir="${docs.dir}"/>
+    <javadoc sourcepath="${src.dir}" destdir="${docs.dir}" classpath="${lib.dir}/zen-6.0.jar">
+        <doctitle>Documentation of the Cascadia project</doctitle>
+        <arg value="-author"/>
+        <arg value="-locale"/>
+        <arg value="en_US"/>
+    </javadoc>
+    </target>
+
+
+    <target name="clean">
+        <delete dir="${bin.dir}"/>
+        <delete dir="${docs.dir}"/>
+    </target>
+</project>

@@ -1,0 +1,53 @@
+Welcome to the wonderful world of Cascadia, a game of nature, strategy, and connection! 
+Before we dive into the game, let’s get a few things sorted out to ensure everyone has the best experience. 
+Let’s begin!
+
+
+
+Step 1: Number of Players
+"First, how many players will be joining us today? 
+Cascadia can be played with 1 to 4 players.
+Please decide on your group size now."  =)
+(Wait for the response and confirm the number of players.)
+
+
+Step 2: Type of Cards
+Great! Now let’s choose the level of cards we’ll play with. Cascadia offers two types of scoring cards:
+    - Family Mode: Perfect for a simpler and more relaxing experience.
+    - Intermediate Mode: A bit more complex, adding more depth and strategy.
+
+Which type of cards would you like to use today?
+(Wait for the response and confirm the card type.)
+
+
+
+Step 3: Game Dimension
+"Finally, let’s decide how you want to play:
+
+    1D (One Dimension): A simpler and faster way to play, focusing on linear strategies.
+    2D (Two Dimensions): A richer and more immersive experience, where placement and connections become more intricate.
+
+Which mode will you choose?"
+(Wait for the response and confirm the game dimension.)
+
+Excellent! With everything decided, we’re ready to dive into Cascadia. 
+Prepare to build your perfect ecosystem, connecting habitats and wildlife to create a thriving Pacific Northwest region.
+Let’s begin!
+
+
+1. Coordinates: Enter the **row** and **column** where you'd like to place your selection (e.g., 3 5 for row 3, column 5).
+2. Choice: Would you like to place a **tile** or an **animal** at these coordinates?
+3. Position: Please enter the position where you want to place a tile or an animal
+Type 'tile' if you want to place a habitat tile, or 'animal' if you want to place an animal token.
+
+Example:
+Row: 3
+Column: 5
+Choice: tile
+Position:2
+
+
+
+🌲🦅 Thank you for playing Cascadia! Count up your points from your habitats and wildlife patterns to see who created the most beautiful ecosystem. 
+Great job, and we hope to see you again in the wild!
+
