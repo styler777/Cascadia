@@ -55,7 +55,7 @@ Lors du lancement, le jeu vous demandera les informations suivantes :
 
 - G → Graphique (2D)
   
-- Texte → Mode 1D (console)
+- Text → Mode 1D (console)
   
 
 ## 📝 Exemple d'entrée :
